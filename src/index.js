@@ -1,6 +1,7 @@
 let growler = new Vue({
   el: '#growler',
   data: {
-    appName: 'Hello World!'
+    appName: 'Hello World!',
+    appName2: 'This App Name doesn\'t change'
   }
 });
