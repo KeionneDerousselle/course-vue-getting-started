@@ -7,12 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
   <title>Getting Started With Vue</title>
 </head>
 
 <body>
   <div id="growler">
-    <h1 :style="[accentColor, headers]">{{ appName }}</h1>
+    <h1 :class="[accentColor, headers]">{{ appName }}</h1>
     <h2 v-text="appName"></h2>
     <h3 v-once>{{ appName2 }}</h3>
     <h4 v-html="someBoundHtml"></h4>
