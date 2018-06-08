@@ -14,7 +14,9 @@
 <body>
   <div id="growler">
     <h1 :class="[accentColor, headers]">{{ appName }}</h1>
-    <h2 v-text="appName"></h2>
+    <h2 v-text="appName" :class="{
+      'headers': true
+    }"></h2>
     <h3 v-once>{{ appName2 }}</h3>
     <h4 v-html="someBoundHtml"></h4>
   </div>
