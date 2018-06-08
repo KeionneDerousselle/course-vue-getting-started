@@ -4,8 +4,10 @@ let growler = new Vue({
     appName: 'Hello World!',
     appName2: 'This App Name doesn\'t change',
     someBoundHtml: '<a href="#">Some Link</a>',
-    appStyle: {
-      color: '#FF6A00',
+    accentColor: {
+      color: '#FF6A00'
+    },
+    headers: {
       fontFamily: 'Verdana',
       margin: 0
     }
