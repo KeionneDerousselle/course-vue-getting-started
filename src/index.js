@@ -6,6 +6,7 @@ let growler = new Vue({
     someBoundHtml: '<a href="#">Some Link</a>',
     accentColor: 'accent-color',
     headers: 'headers',
-    query: ''
+    query: '',
+    emailMessage: ''
   }
 });
