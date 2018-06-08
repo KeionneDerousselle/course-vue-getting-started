@@ -5,6 +5,7 @@ let growler = new Vue({
     appName2: 'This App Name doesn\'t change',
     someBoundHtml: '<a href="#">Some Link</a>',
     accentColor: 'accent-color',
-    headers: 'headers'
+    headers: 'headers',
+    query: ''
   }
 });
