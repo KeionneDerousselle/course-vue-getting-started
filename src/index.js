@@ -7,6 +7,7 @@ let growler = new Vue({
     accentColor: 'accent-color',
     headers: 'headers',
     query: '',
-    emailMessage: ''
+    emailMessage: '',
+    isPowerSyntaxEnabled: false
   }
 });
