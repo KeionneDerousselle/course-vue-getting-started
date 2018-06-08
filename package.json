@@ -1,0 +1,24 @@
+{
+  "name": "course-vue-getting-started",
+  "version": "1.0.0",
+  "description": "\"# course-vue-getting-started\"",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/lite-server -c configs/lite-server.config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeionneDerousselle/course-vue-getting-started.git"
+  },
+  "author": "Keionne Derousselle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeionneDerousselle/course-vue-getting-started/issues"
+  },
+  "homepage": "https://github.com/KeionneDerousselle/course-vue-getting-started#readme"
+}
