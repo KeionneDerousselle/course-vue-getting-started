@@ -3,6 +3,7 @@ let growler = new Vue({
   data: {
     appName: 'Hello World!',
     appName2: 'This App Name doesn\'t change',
-    someBoundHtml: '<a href="#">Some Link</a>'
+    someBoundHtml: '<a href="#">Some Link</a>',
+    color: '#FF6A00'
   }
 });
